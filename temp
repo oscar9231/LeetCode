@@ -1,0 +1,20 @@
+class Solution(object):
+    def longestPalindrome(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
+        lis = []
+        dic = {}
+        i = 0
+        for char in s:
+            lis.append(char)
+
+        for index, char in enumerate(lis):
+            dic[index] = char
+
+        while i < len(s):
+            if 
+
+a1 = Solution()
+print(a1.longestPalindrome("cbbd"))
