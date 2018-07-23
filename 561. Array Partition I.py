@@ -13,4 +13,4 @@ class Solution(object):
         
 # the simplest solution:
 #   def arrayPairSum(self, A):
-      return sum(sorted(A)[::2])
+#     return sum(sorted(A)[::2])
