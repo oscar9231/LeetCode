@@ -6,7 +6,6 @@ class Solution:
         n = len(grid)
         m = len(grid[0])
 
-        print(grid[-1][0])
         def dfs(x, y):
             if (0 <= x and x < n) and (0 <= y and y < m) and grid[x][y]:
                 grid[x][y] = 0
