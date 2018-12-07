@@ -12,7 +12,6 @@ class Solution:
             if nums[i] != nums[i+1]:
                 i += 1
             elif nums[i] == nums[i+1]:
-                print(i+2, length-1)
                 if i+2 <= length and nums[i] == nums[i+2]:
                     nums.remove(nums[i])
                     length -= 1
