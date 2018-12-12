@@ -1,3 +1,5 @@
+#DP
+
 class Solution:
     def minimumTotal(self, triangle):
         """
